@@ -262,11 +262,16 @@ body{font-family:'Nunito',sans-serif;background:#06021a;color:#fff;overflow-x:hi
 
 /* REAL COMMUNITY */
 .rc-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
-.rc-phones{display:flex;align-items:flex-start;}
-.rc-phone-a,.rc-phone-b{border-radius:22px;overflow:hidden;border:1px solid rgba(100,55,200,.3);box-shadow:0 20px 60px rgba(0,0,0,.6);width:52%;flex-shrink:0;}
-.rc-phone-a{z-index:1;position:relative;}
-.rc-phone-b{margin-left:-20px;margin-top:40px;z-index:2;position:relative;}
-.rc-phone-a img,.rc-phone-b img{width:100%;display:block;}
+.rc-phones{display:flex;align-items:flex-start;position:relative;}
+.rc-phone-a,.rc-phone-b{
+  border-radius:16px;overflow:hidden;
+  border:2px solid rgba(100,55,200,.5);
+  box-shadow:0 20px 60px rgba(0,0,0,.7);
+  flex-shrink:0;position:relative;
+}
+.rc-phone-a{width:52%;z-index:1;margin-right:-30px;margin-top:20px;}
+.rc-phone-b{width:55%;z-index:2;margin-top:0;}
+.rc-phone-a img,.rc-phone-b img{width:100%;height:100%;display:block;object-fit:cover;}
 .rc-right h2{font-family:'Rajdhani',sans-serif;font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:700;line-height:1.1;margin-bottom:18px;text-transform:uppercase;}
 .rc-right h2 .hl{background:linear-gradient(90deg,#ffd700,#ffb800);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .rc-right p{color:#8878b8;font-size:.95rem;line-height:1.8;margin-bottom:22px;}
@@ -446,25 +451,25 @@ body{font-family:'Nunito',sans-serif;background:#06021a;color:#fff;overflow-x:hi
   .why-card p{font-size:.78rem;line-height:1.6;}
 
   /* — Real community — */
-  .rc-grid{gap:32px;}
-  .rc-phones{
-    flex-direction:row;
-    justify-content:center;
-    align-items:flex-start;
-    gap:0;
-  }
-   .rc-phone-a,.rc-phone-b{width:48%;margin:0;}
-   .rc-phone-b{margin-left:-18px;margin-top:28px;}
-   .rc-right{text-align:center;}
-   .rc-checks{align-items:center;}
-  .tg-btn{
-    width:100%;
-    justify-content:center;
-    padding:16px 20px;
-    font-size:.88rem;
-    border-radius:12px;
-    min-height:56px;
-  }
+.rc-grid{gap:32px;}
+.rc-phones{
+  flex-direction:row;
+  justify-content:center;
+  align-items:flex-start;
+  position:relative;
+}
+.rc-phone-a{width:50%;margin-right:-20px;margin-top:14px;z-index:1;}
+.rc-phone-b{width:54%;margin-top:0;z-index:2;}
+.rc-right{text-align:center;}
+.rc-checks{align-items:center;}
+.tg-btn{
+  width:100%;
+  justify-content:center;
+  padding:16px 20px;
+  font-size:.88rem;
+  border-radius:12px;
+  min-height:56px;
+}
 
   /* — Bonus cards 2×2 — */
   .bonus-grid{grid-template-columns:1fr 1fr;gap:10px;}
