@@ -13,7 +13,7 @@ const GIFT_URL     = "https://t.me/+SrcbhRijTW83M2Vl";
 const PREDICT_URL  = "https://t.me/+l6iCLdOvKkI5OWVl";
 const TELEGRAM_URL = "https://t.me/jaiclub_official_channel?start=referral_12345";
 const LOGO = "https://jaiclub.games/wp-content/uploads/2026/03/jai-club-1.png";
-const HERO_BG = "https://i.postimg.cc/HsPyJXf4/Chat-GPT-Image-May-14-2026-06-07-49-PM.png";
+const HERO_BG = "https://i.postimg.cc/gkqcJ6V3/Chat-GPT-Image-May-18-2026-06-08-57-PM.png";
 
 const bonuses = [
   { label: "DAILY BONUS",    upto: "UP TO", amount: "₹300",  Icon: Gift,    type: "Daily Bonus"  },
@@ -321,7 +321,7 @@ body{font-family:'Nunito',sans-serif;background:#06021a;color:#fff;overflow-x:hi
 /* FOOTER */
 .footer{background:#040110;border-top:1px solid rgba(100,55,200,.14);padding:54px 24px 24px;}
 .footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:42px;}
-.f-brand img{width:40px;height:40px;margin-bottom:10px;display:block;}
+.f-brand img{width:80px;height:80px;margin-bottom:10px;display:block;object-fit:contain;}
 .f-brand .fname{font-family:'Rajdhani',sans-serif;font-size:1.35rem;font-weight:700;color:#fff;margin-bottom:10px;}
 .f-brand .fname span{color:var(--gold);}
 .f-brand p{color:#6060a0;font-size:.82rem;line-height:1.75;}
@@ -665,10 +665,10 @@ function HomePage() {
           <div className="rc-grid">
             <div className="rc-phones">
               <div className="rc-phone-a">
-                <img src="https://i.postimg.cc/yxMW863F/photo-2026-03-31-12-47-13.jpg" alt="JaiClub" />
+                <img src="https://i.postimg.cc/gkrxZQQT/photo-2026-05-18-12-18-36.jpg" alt="JaiClub" />
               </div>
               <div className="rc-phone-b">
-                <img src="https://i.postimg.cc/ZnG05Yv8/photo-2026-03-24-10-37-09.jpg" alt="JaiClub" />
+                <img src="https://i.postimg.cc/4NnY9qqF/photo-2026-05-18-12-20-02.jpg" alt="JaiClub" />
               </div>
             </div>
             <div className="rc-right">
