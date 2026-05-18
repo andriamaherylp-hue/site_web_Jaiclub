@@ -263,8 +263,7 @@ body{font-family:'Nunito',sans-serif;background:#06021a;color:#fff;overflow-x:hi
 /* REAL COMMUNITY */
 .rc-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
 .rc-phones{display:flex;align-items:flex-start;}
-.rc-phone-a,.rc-phone-b{border-radius:22px;overflow:hidden;border:1px solid rgba(100,55,200,.3);box-shadow:0 20px 60px rgba(0,0,0,.6);width:48%;flex-shrink:0;aspect-ratio:9/16;}
-.rc-phone-a img,.rc-phone-b img{width:100%;height:100%;display:block;object-fit:cover;}
+.rc-phone-a,.rc-phone-b{border-radius:22px;overflow:hidden;border:1px solid rgba(100,55,200,.3);box-shadow:0 20px 100px rgba(0,0,0,.6);width:52%;flex-shrink:0;}
 .rc-phone-a{z-index:1;position:relative;}
 .rc-phone-b{margin-left:-20px;margin-top:40px;z-index:2;position:relative;}
 .rc-phone-a img,.rc-phone-b img{width:100%;display:block;}
