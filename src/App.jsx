@@ -14,7 +14,7 @@ const PREDICT_URL  = "https://t.me/+l6iCLdOvKkI5OWVl";
 const TELEGRAM_URL = "https://t.me/jaiclub_official_channel?start=referral_12345";
 const LOGO = "https://jaiclub.games/wp-content/uploads/2026/03/jai-club-1.png";
 const HERO_BG = "https://i.postimg.cc/13Tsf0dx/jai-club-reduced.png";
-
+f
 const bonuses = [
   { label: "DAILY BONUS",    upto: "UP TO", amount: "₹300",  Icon: Gift,    type: "Daily Bonus"  },
   { label: "WELCOME BONUS",  upto: "UP TO", amount: "₹500",  Icon: Sparkles, type: "Welcome"     },
@@ -263,7 +263,7 @@ body{font-family:'Nunito',sans-serif;background:#06021a;color:#fff;overflow-x:hi
 /* REAL COMMUNITY */
 .rc-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
 .rc-phones{display:flex;align-items:flex-start;}
-.rc-phone-a,.rc-phone-b{border-radius:22px;overflow:hidden;border:1px solid rgba(100,55,200,.3);box-shadow:0 20px 100px rgba(0,0,0,.6);width:52%;flex-shrink:0;}
+.rc-phone-a,.rc-phone-b{border-radius:22px;overflow:hidden;border:1px solid rgba(100,55,200,.3);box-shadow:0 20px 60px rgba(0,0,0,.6);width:52%;flex-shrink:0;}
 .rc-phone-a{z-index:1;position:relative;}
 .rc-phone-b{margin-left:-20px;margin-top:40px;z-index:2;position:relative;}
 .rc-phone-a img,.rc-phone-b img{width:100%;display:block;}
