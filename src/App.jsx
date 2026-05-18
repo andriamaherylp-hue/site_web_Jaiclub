@@ -13,7 +13,7 @@ const GIFT_URL     = "https://t.me/+SrcbhRijTW83M2Vl";
 const PREDICT_URL  = "https://t.me/+l6iCLdOvKkI5OWVl";
 const TELEGRAM_URL = "https://t.me/jaiclub_official_channel?start=referral_12345";
 const LOGO = "https://jaiclub.games/wp-content/uploads/2026/03/jai-club-1.png";
-const HERO_BG = "https://imgur.com/undefined";
+const HERO_BG = "https://i.postimg.cc/13Tsf0dx/jai-club-reduced.png";
 
 const bonuses = [
   { label: "DAILY BONUS",    upto: "UP TO", amount: "₹300",  Icon: Gift,    type: "Daily Bonus"  },
@@ -665,10 +665,10 @@ function HomePage() {
           <div className="rc-grid">
             <div className="rc-phones">
               <div className="rc-phone-a">
-                <img src="https://imgur.com/IyGaYWR" />
+                <img src="https://i.postimg.cc/XY2cFqK3/photo-2026-05-18-12-18-36.jpg" />
               </div>
               <div className="rc-phone-b">
-                <img src="https://imgur.com/undefined" alt="JaiClub" />
+                <img src="https://i.postimg.cc/RCc7dX1c/photo-2026-05-18-12-20-02.jpg" alt="JaiClub" />
               </div>
             </div>
             <div className="rc-right">
