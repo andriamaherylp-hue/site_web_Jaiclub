@@ -670,10 +670,10 @@ function HomePage() {
           <div className="rc-grid">
             <div className="rc-phones">
               <div className="rc-phone-a">
-                <img src="https://i.postimg.cc/XY2cFqK3/photo-2026-05-18-12-18-36.jpg" />
+                <img src="https://i.postimg.cc/RCc7dX1c/photo-2026-05-18-12-20-02.jpg" />
               </div>
               <div className="rc-phone-b">
-                <img src="https://i.postimg.cc/RCc7dX1c/photo-2026-05-18-12-20-02.jpg" alt="JaiClub" />
+                <img src="https://i.postimg.cc/XY2cFqK3/photo-2026-05-18-12-18-36.jpg" alt="JaiClub" />
               </div>
             </div>
             <div className="rc-right">
