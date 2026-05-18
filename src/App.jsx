@@ -14,7 +14,7 @@ const PREDICT_URL  = "https://t.me/+l6iCLdOvKkI5OWVl";
 const TELEGRAM_URL = "https://t.me/jaiclub_official_channel?start=referral_12345";
 const LOGO = "https://jaiclub.games/wp-content/uploads/2026/03/jai-club-1.png";
 const HERO_BG = "https://i.postimg.cc/13Tsf0dx/jai-club-reduced.png";
-f
+
 const bonuses = [
   { label: "DAILY BONUS",    upto: "UP TO", amount: "₹300",  Icon: Gift,    type: "Daily Bonus"  },
   { label: "WELCOME BONUS",  upto: "UP TO", amount: "₹500",  Icon: Sparkles, type: "Welcome"     },
